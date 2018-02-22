@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-
-import Navbar from './components/Navbar/Navbar'; 
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import styles from './App.css'
+import Nav from "./components/Navbar/Navbar";
+import Footer from './components/Footer/Footer'
+import Home from "./pages/Home";
 
 class App extends Component {
-  render() {
-    return (
-        <MuiThemeProvider>
-         <Navbar />
-      </MuiThemeProvider>
+  componentDidMount(){
+    console.log('this is working')
+  }
+
+  render(){
+    return(
+      <div className="App Site">
+				<div className="Site-content">
+          <Router>
+            <div>
+            <Nav />
+              <Route exact path="/" component={Home} />
+            </div>
+          </Router>
+				</div>
+				<Footer />
+			</div>
     );
   }
 }
-
 
 export default App;

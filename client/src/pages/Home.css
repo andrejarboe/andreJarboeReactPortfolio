@@ -1,0 +1,11 @@
+#profilePic{
+  /* border-radius: 50%; */
+  position: relative;
+  z-index: 1;
+  margin-bottom: -15%;
+  width: 20%;
+}
+
+#bio{
+  padding: 20% 2% 2% 2%;
+}
