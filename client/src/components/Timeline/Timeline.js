@@ -1,48 +1,125 @@
 import React from 'react';
+import styles from './Timeline.css';
 
 const Timeline = props => 
-<ul class="cbp_tmtimeline">
-	<li>
-		<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>4/10/13</span> <span>18:30</span></time>
-		<div class="cbp_tmicon cbp_tmicon-phone"></div>
-		<div class="cbp_tmlabel">
-			<h2>Ricebean black-eyed pea</h2>
-			<p>Winter purslane...</p>
-		</div>
-	</li>
-	<li>
-		<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>4/11/13</span> <span>12:04</span></time>
-		<div class="cbp_tmicon cbp_tmicon-screen"></div>
-		<div class="cbp_tmlabel">
-			<h2>Greens radish arugula</h2>
-			<p>Caulie dandelion maize...</p>
-		</div>
-	</li>
-	<li>
-		<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>4/13/13</span> <span>05:36</span></time>
-		<div class="cbp_tmicon cbp_tmicon-mail"></div>
-		<div class="cbp_tmlabel">
-			<h2>Sprout garlic kohlrabi</h2>
-			<p>Parsnip lotus root...</p>
-		</div>
-	</li>
-	<li>
-		<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>4/15/13</span> <span>13:15</span></time>
-		<div class="cbp_tmicon cbp_tmicon-phone"></div>
-		<div class="cbp_tmlabel">
-			<h2>Watercress ricebean</h2>
-			<p>Peanut gourd nori...</p>
-		</div>
-	</li>
-	<li>
-		<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>4/16/13</span> <span>21:30</span></time>
-		<div class="cbp_tmicon cbp_tmicon-earth"></div>
-		<div class="cbp_tmlabel">
-			<h2>Courgette daikon</h2>
-			<p>Parsley amaranth tigernut...</p>
-		</div>
-	</li>
-</ul>
+
+<section class="timeline">
+  <div class="container">
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <h2>Title</h2>
+        <div class="date">1 MAY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">25 MAY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">3 JUN 2016</div>
+        <h2>Quote</h2>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <h2>Title</h2>
+        <div class="date">22 JUN 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInLeft">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">10 JULY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">30 JULY 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">5 AUG 2016</div>
+        <h2>Quote</h2>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+          <h2>Card Title</h2>
+        </div>
+        <div class="date">19 AUG 2016</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">1 SEP 2016</div>
+        <h2>Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>   
+  </div>
+</section>
 
 
 export default Timeline;

@@ -4,6 +4,8 @@ import styles from './App.css'
 import Nav from "./components/Navbar/Navbar";
 import Footer from './components/Footer/Footer'
 import Home from "./pages/Home";
+import Blog from './pages/Blog/Blog';
+
 
 class App extends Component {
   componentDidMount(){
@@ -18,6 +20,7 @@ class App extends Component {
             <div>
             <Nav />
               <Route exact path="/" component={Home} />
+              <Route exact path="/blog" component={Blog} />              
             </div>
           </Router>
 				</div>

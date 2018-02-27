@@ -2,7 +2,7 @@ import React from "react";
 // import {Row, Col} from 'react-materialize';
 import styles from './Home.css';
 import ProfilePic from './profilePic.jpg';
-import Timeline  from "../components/Timeline/Timeline";
+// import Timeline  from "../components/Timeline/Timeline";
 
 
 
@@ -25,7 +25,7 @@ const Home = () =>
   </div>
 
   {/* Experience  */}
-  <Timeline />
+  {/* <Timeline /> */}
 
   {/* Sample Portfolio */}
   <section id="portfolio" className='row'>
@@ -33,7 +33,7 @@ const Home = () =>
     <div className='col s12'>
       <h5 className='center'>Portfolio</h5>
     </div>
-      <div className='col s12 m4 l4'>
+      <div className='col s12 m6 l3'>
         <div className='card'>
           <div className="card-image">
             <img className="activator" src={ProfilePic} />
@@ -44,12 +44,12 @@ const Home = () =>
           </div>
           <div class="card-action">
             <a href="#">Github</a>
-            <a href="#">Live Demo</a>            
+            <a href="#">Demo</a>            
           </div>
         </div>
       </div>
 
-      <div className='col s12 m4 l4'>
+      <div className='col s12 m6 l3'>
         <div className='card'>
           <div className="card-image">
             <img className="activator" src={ProfilePic} />
@@ -60,12 +60,12 @@ const Home = () =>
           </div>
           <div class="card-action">
             <a href="#">Github</a>
-            <a href="#">Live Demo</a>            
+            <a href="#">Demo</a>            
           </div>
         </div>
       </div>
 
-      <div className='col s12 m4 l4'>
+      <div className='col s12 m6 l3'>
         <div className='card'>
           <div className="card-image">
             <img className="activator" src={ProfilePic} />
@@ -76,7 +76,23 @@ const Home = () =>
           </div>
           <div class="card-action">
             <a href="#">Github</a>
-            <a href="#">Live Demo</a>            
+            <a href="#">Demo</a>            
+          </div>
+        </div>
+      </div>
+
+      <div className='col s12 m6 l3'>
+        <div className='card'>
+          <div className="card-image">
+            <img className="activator" src={ProfilePic} />
+          </div>
+          <div class="card-content">
+            <span class="card-title">Card Title</span>          
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Github</a>
+            <a href="#">Demo</a>            
           </div>
         </div>
       </div>
@@ -85,6 +101,15 @@ const Home = () =>
     </div>
     </div>
   </section>
+
+  {/* From the blog */}
+  <section id='blog' className='row'>
+    <div className='Container'>
+      <h5 className='center'> From The Blog</h5>
+    </div>
+  </section>
 </section>
+
+
 
 export default Home;
