@@ -2,6 +2,7 @@ import React from "react";
 // import {Row, Col} from 'react-materialize';
 import styles from './Home.css';
 import ProfilePic from './profilePic.jpg';
+import Timeline  from "../components/Timeline/Timeline";
 
 
 
@@ -22,6 +23,10 @@ const Home = () =>
       </p>
     </div>
   </div>
+
+  {/* Experience  */}
+  <Timeline />
+
   {/* Sample Portfolio */}
   <section id="portfolio" className='row'>
     <div className='container'>

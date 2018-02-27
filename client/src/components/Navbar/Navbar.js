@@ -9,7 +9,7 @@ const Nav = props =>
     <NavItem>Blog</NavItem>
     <NavItem>About</NavItem>
     <NavItem>Contact</NavItem>    
-</Navbar>
+  </Navbar>
 
 
 export default Nav;

@@ -1,6 +1,6 @@
 import React from "react";
 import {Footer} from 'react-materialize';
-// import styles from './Footer.css';
+import styles from './Footer.css';
 
 
 
