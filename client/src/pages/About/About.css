@@ -1,0 +1,9 @@
+#about img{
+  float: left;
+  padding-right: 10px;
+  width: 50%;
+}
+
+#about p {
+  font-size: 20px;
+}

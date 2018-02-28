@@ -42,9 +42,13 @@ componentWillMount(){
   }
 
 loadBlogs = () => {
-console.log(data);
+let blogs = [];
+for(let i = 0; i<4; i++){
+  blogs.push(data[i]);
+}
+console.log(blogs);
   this.setState({
-    blogPost: data,
+    blogPost: blogs,
     title: "",
     body: ""
   });

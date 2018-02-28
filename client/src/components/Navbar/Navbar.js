@@ -7,7 +7,7 @@ const Nav = props =>
     <NavItem>Home</NavItem>
     <NavItem>Projects</NavItem>
     <NavItem href='/blog'>Blog</NavItem>
-    <NavItem>About</NavItem>
+    <NavItem href='/about'>About</NavItem>
     <NavItem>Contact</NavItem>    
   </Navbar>
 
