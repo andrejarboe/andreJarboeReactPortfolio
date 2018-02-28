@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "profilePic.jpg",
+    "title": "Engage", 
+    "description":"Engage provides the best rewards for customers and the best data for companies. Using short, fun surveys, created and sent by the business, it gathers crucial feedback from the customer and gives them a fantastic reward for their time and info.",
+    "github": "https://github.com/armsle2/Engage",
+    "liveSite":"https://engage-the-news-team.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "img": "weCoin.jpg",
+    "title": "VolunteerNOW",
+    "description":"VolunteerNOW seeks to be the place to find opportunities to serve your community. Organizations in the community post upcoming events and their needs for volunteers. Members of the community search these events to match their interests, talents and time availability. Members also track their service record and check their calendar for upcoming commitments. Organizations manage their volunteers, training and outreach. New organizations can jumpstart their integration into the community. Join now and start volunteering! ",
+    "github": "https://github.com/andrejarboe/volunteerNow",
+    "liveSite":"https://volunteer-now-app.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "img": "weCoin.jpg",
+    "title": "WeCoin", 
+    "description":"A web app that allows users to to find merchants near them that accept bitcoin as payment.",
+    "github": "https://github.com/pperreiah/project-bitcoin",
+    "liveSite":"https://pperreiah.github.io/project-bitcoin/"
+  }
+]

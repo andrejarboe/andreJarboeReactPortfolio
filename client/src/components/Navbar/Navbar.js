@@ -4,11 +4,11 @@ import {Navbar, NavItem} from 'react-materialize';
 
 const Nav = props => 
   <Navbar brand='Andre Jarboe II' right>
-    <NavItem>Home</NavItem>
-    <NavItem>Projects</NavItem>
+    <NavItem href='/'>Home</NavItem>
+    <NavItem href='/projects'>Projects</NavItem>
     <NavItem href='/blog'>Blog</NavItem>
     <NavItem href='/about'>About</NavItem>
-    <NavItem>Contact</NavItem>    
+    <NavItem href='/contact'>Contact</NavItem>    
   </Navbar>
 
 
