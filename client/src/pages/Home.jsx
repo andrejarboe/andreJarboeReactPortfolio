@@ -16,11 +16,13 @@ const Home = () =>
     </div>
 
     <div className='card'>
-
-      
       <p id='bio' className="flow-text">
         Ever since I was a young boy I have been fascinated with outer space and the technology used to get there. I hope I get to experience space travel before my time is up. I also love to solve riddles and puzzles. This skill has helped me when the going gets tough in programming. I know there is always a solution to the problem I just might have to look at it from a different angle. I love learning web development and tutoring my classmates. I find that I have a more positive attitude than most people. The way I see it “You can complain and be nothing, or work and be something...” 
       </p>
+        <section className="center">
+          <a href="/" class="waves-effect waves-light btn">Resume</a>
+          <a href="/contact" class="waves-effect waves-light btn">Contact me</a>        
+        </section>     
     </div>
   </div>
 
@@ -96,8 +98,8 @@ const Home = () =>
           </div>
         </div>
       </div>
-      <div className='col s12'>
-      <h5 className='center'>View More</h5>
+      <div className=' center col s12'>
+        <a href="/projects" class="waves-effect waves-light btn">View More</a>
     </div>
     </div>
   </section>
@@ -106,6 +108,41 @@ const Home = () =>
   <section id='blog' className='row'>
     <div className='Container'>
       <h5 className='center'> From The Blog</h5>
+    </div>
+  </section>
+
+    {/* My Skills */}
+    <section id='skills' className='row'>
+    <div className='Container center'>
+      <h5 className='center'>My Skills</h5>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          Node.js
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          MongoDB
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          React.js
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          Express.js
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          JavaScript
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          MySQL
+        </div>
+        <div class="chip">
+          <img src="images/yuna.jpg" alt="" />
+          Node.js
+        </div>
     </div>
   </section>
 </section>

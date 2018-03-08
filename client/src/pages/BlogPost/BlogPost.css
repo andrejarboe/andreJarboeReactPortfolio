@@ -1,0 +1,8 @@
+#blogPost{
+  margin: 20px 0;
+}
+
+#blogPost .card{
+  margin: auto;
+  max-width: 75%;
+}

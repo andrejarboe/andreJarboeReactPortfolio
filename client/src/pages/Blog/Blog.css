@@ -1,5 +1,8 @@
-@media (max-width: 600px) {
+#blog img{
+  /* max-width: 30%; */
+}
+/* @media (max-width: 600px) {
   .mobileHide{
     display: none; 
   }
-}
+} */

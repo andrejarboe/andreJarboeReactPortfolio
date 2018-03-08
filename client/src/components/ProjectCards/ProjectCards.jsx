@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import projects from '../../db/projects.json';
+import './Project.css';
 
 class ProjectCards extends Component {
   state = {
@@ -27,7 +28,7 @@ class ProjectCards extends Component {
         {this.state.projects.length ?(
           <div className="row">
             {this.state.projects.map(project => (
-              <div key={project.id} className="col s4 m4 l6">
+              <div key={project.id} className="col s12 m12 l6">
               <div className="card">
                 <div className="card-image">
                   <img className="activator" src={require("../../images/"+project.img)} alt=""/>
@@ -39,8 +40,8 @@ class ProjectCards extends Component {
                   </p>
                 </div>
                 <div class="card-action">
-                  <a href={project.github}>Github</a>
-                  <a href={project.liveSite}>Demo</a>            
+                  <a href={project.github} target="_blank">Github</a>
+                  <a href={project.liveSite} target="_blank">Demo</a>            
                 </div>
               </div>
             </div>
