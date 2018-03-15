@@ -72,7 +72,7 @@ class Blog extends Component {
                 <div>
                   {this.state.blogPost.map(blog => (
                     <div key={blog.id} className="col s12">
-                      <div class="card horizontal">
+                      <div class="card small horizontal">
                         <div class="card-image">
                           <img src={require("../../images/"+blog.img)} />
                         </div>

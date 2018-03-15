@@ -9,3 +9,13 @@
 #bio{
   padding: 20% 2% 2% 2%;
 }
+#resume{
+  margin: -25px auto 20px auto;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#resume :first-child{
+  margin-right: 20px;
+}
