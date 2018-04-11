@@ -6,11 +6,11 @@ class Contact extends Component {
     return (
       <section id="contact">
         <div className="container">
-          <div className="row">
+          <div className="row animated bounceInLeft">
             <div className="col m10 offset-m1 s12">
               <h2 className="center-align">Contact Me</h2>
               <div className="row">
-                <form className="col m8 offset-m2 s12">
+                <form method="POST" action="send" className="col m8 offset-m2 s12">
                   <div className="row">
                     <div className="input-field col s12">
                       <input id="name" type="text" />
@@ -26,10 +26,10 @@ class Contact extends Component {
                     </div>
                   </div>
 
-                  <div className="divider"></div>
+                  {/* // <div className="divider"></div> */}
                   <div className="row">
                     <div className="col m12">
-                      <p className="right-align"><button className="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                      <p className="right-align"><button className="btn btn-large waves-effect waves-light" type="submit" name="action">Send Message</button></p>
                     </div>
                   </div>
                 </form>
