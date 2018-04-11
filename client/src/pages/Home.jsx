@@ -2,7 +2,7 @@ import React from "react";
 // import {Row, Col} from 'react-materialize';
 import './Home.css';
 import andreJarboeResume from './andreJarboeResume.pdf';
-import ProfilePic from './profilePic.jpg';
+import ProfilePic from '../images/squareProfilePic.jpg';
 // import Timeline  from "../components/Timeline/Timeline";
 import HomeProjects from '../components/HomeProjects';
 
