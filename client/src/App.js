@@ -5,33 +5,35 @@ import Nav from "./components/Navbar/Navbar";
 import Footer from './components/Footer/Footer'
 import Home from "./pages/Home.jsx";
 import Projects from './pages/Projects/Projects';
-import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import BlogPost from './pages/BlogPost/BlogPost';
+import About from './pages/About/About';
+import Contact from './pages/Contact';
 
 
 class App extends Component {
-  componentDidMount(){
+  componentDidMount() {
     console.log('this is working')
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div className="App Site">
-				<div className="Site-content">
+        <div className="Site-content">
           <Router>
             <div>
-            <Nav />
+              <Nav />
               <Route exact path="/" component={Home} />
-              <Route exact path="/projects" component={Projects} />                            
-              <Route exact path="/about" component={About} />                            
+              <Route exact path="/projects" component={Projects} />
               <Route exact path="/blog" component={Blog} />
-              <Route exact path="/blog/:id" component={BlogPost} />                                     
+              <Route exact path="/blog/:id" component={BlogPost} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/contact" component={Contact} />
             </div>
           </Router>
-				</div>
-				<Footer />
-			</div>
+        </div>
+        <Footer />
+      </div>
     );
   }
 }

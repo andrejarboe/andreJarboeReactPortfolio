@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import projects from '../../db/projects.json';
-// import './Project.css';
+import Styles from './HomeProjects.css';
+
 
 class ProjectCards extends Component {
   state = {
@@ -26,7 +27,7 @@ class ProjectCards extends Component {
     return(
       <div>
         {this.state.projects.length ?(
-          <div className="row">
+          <div id="homeCards" className="row">
             {this.state.projects.slice(0, 4).map(project => (
             <div className='col s12 m6 l3'key={project.id}>
             <div className='card'>

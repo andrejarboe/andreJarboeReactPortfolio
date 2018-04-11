@@ -19,3 +19,7 @@
 #resume :first-child{
   margin-right: 20px;
 }
+
+#portfolio img{
+  max-height: 100%;
+}

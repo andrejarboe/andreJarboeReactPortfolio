@@ -46,11 +46,11 @@ const Home = () =>
   </section>
 
   {/* From the blog */}
-  <section id='blog' className='row'>
-    <div className='Container'>
-      <h5 className='center'> From The Blog</h5>
-    </div>
-  </section>
+  {/* <section id='blog' className='row'>
+     <div className='Container'>
+       <h5 className='center'> From The Blog</h5>
+     </div>
+   </section> */}
 
     {/* My Skills */}
     <section id='skills' className='row'>
@@ -80,12 +80,7 @@ const Home = () =>
           <img src="images/yuna.jpg" alt="" />
           MySQL
         </div>
-        <div class="chip">
-          <img src="images/yuna.jpg" alt="" />
-          Node.js
-        </div>
     </div>
-    
   </section>
 </section>
 
