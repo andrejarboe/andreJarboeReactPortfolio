@@ -9,17 +9,17 @@
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "node scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "installDeps": "yarn && cd client && yarn",
-    "heroku-postbuild": "node scripts/build.js",    
-    "heroku-prebuild": "cd client && yarn install"
+    "postinstall": "cd client && npm install",
+    "heroku-postbuild": "node scripts/build.js",
+    "heroku-prebuild": "cd client && npm install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^3.5.0",
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "concurrently": "^3.5.1",
     "express": "^4.15.4"
   }
 }

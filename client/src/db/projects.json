@@ -3,6 +3,7 @@
     "id": 1,
     "img": "engage.png",
     "title": "Engage", 
+    "summary": "Engage provides the best rewards for customers and the best data for companies...",
     "description":"Engage provides the best rewards for customers and the best data for companies. Using short, fun surveys, created and sent by the business, it gathers crucial feedback from the customer and gives them a fantastic reward for their time and info.",
     "github": "https://github.com/armsle2/Engage",
     "liveSite":"https://engage-the-news-team.herokuapp.com/"
@@ -11,6 +12,7 @@
     "id": 2,
     "img": "volunteerNow.png",
     "title": "VolunteerNOW",
+    "summary": "VolunteerNOW seeks to be the place to find opportunities to serve your community...",
     "description":"VolunteerNOW seeks to be the place to find opportunities to serve your community. Organizations in the community post upcoming events and their needs for volunteers. Members of the community search these events to match their interests, talents and time availability. Members also track their service record and check their calendar for upcoming commitments. Organizations manage their volunteers, training and outreach. New organizations can jumpstart their integration into the community. Join now and start volunteering! ",
     "github": "https://github.com/andrejarboe/volunteerNow",
     "liveSite":"https://volunteer-now-app.herokuapp.com/"
@@ -18,25 +20,28 @@
   {
     "id": 3,
     "img": "weCoin.png",
-    "title": "WeCoin", 
+    "title": "WeCoin",
+    "summary": "A web app that allows users to to find merchants near them that accept bitcoin as payment...", 
     "description":"A web app that allows users to to find merchants near them that accept bitcoin as payment.",
     "github": "https://github.com/pperreiah/project-bitcoin",
     "liveSite":"https://pperreiah.github.io/project-bitcoin/"
   },
   {
     "id": 4,
-    "img": "quotes.gif",
-    "title": "Random Quote Generator", 
-    "description": "A simple random quote generator app. Users can press a button to get a random quote. The background also changes to a random color when the random quote button is pressed. Users can also press tweet this and then they are taken to a twitter page where that can tweet out the quote and the author.",
-    "github": "https://github.com/andrejarboe/fccQuotes",
+    "img": "weatherApp.png",
+    "title": "Local Weather App",
+    "summary": "A simple local weather app that allows users to see their local weather summary temperature, and an icon to match...", 
+    "description": "A simple local weather app that allows users to see their local weather summary temperature, and an icon to match.",
+    "github": "https://github.com/andrejarboe/fccWeather",
     "liveSite": "https://andrejarboe.github.io/fccQuotes/"
   },
   {
     "id": 5,
-    "img": "weatherApp.png",
-    "title": "Local Weather App", 
-    "description": "A simple local weather app that allows users to see their local weather summary temperature, and an icon to match.",
-    "github": "https://github.com/andrejarboe/fccWeather",
+    "img": "quotes.gif",
+    "title": "Random Quote Generator",
+    "summary": "A simple random quote generator app. Users can press a button to get a random quote...", 
+    "description": "A simple random quote generator app. Users can press a button to get a random quote. The background also changes to a random color when the random quote button is pressed. Users can also press tweet this and then they are taken to a twitter page where that can tweet out the quote and the author.",
+    "github": "https://github.com/andrejarboe/fccQuotes",
     "liveSite": "https://andrejarboe.github.io/fccQuotes/"
   }
 ]

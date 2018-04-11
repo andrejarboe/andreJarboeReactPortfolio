@@ -4,6 +4,7 @@ import './Home.css';
 import andreJarboeResume from './andreJarboeResume.pdf';
 import ProfilePic from './profilePic.jpg';
 // import Timeline  from "../components/Timeline/Timeline";
+import HomeProjects from '../components/HomeProjects';
 
 
 
@@ -33,72 +34,11 @@ const Home = () =>
   {/* Sample Portfolio */}
   <section id="portfolio" className='row'>
     <div className='container'>
+  {/* Title*/}
     <div className='col s12'>
       <h5 className='center'>Portfolio</h5>
     </div>
-      <div className='col s12 m6 l3'>
-        <div className='card'>
-          <div className="card-image">
-            <img className="activator" src={ProfilePic} />
-          </div>
-          <div class="card-content">
-            <span class="card-title">Card Title</span>          
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Github</a>
-            <a href="#">Demo</a>            
-          </div>
-        </div>
-      </div>
-
-      <div className='col s12 m6 l3'>
-        <div className='card'>
-          <div className="card-image">
-            <img className="activator" src={ProfilePic} />
-          </div>
-          <div class="card-content">
-            <span class="card-title">Card Title</span>          
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Github</a>
-            <a href="#">Demo</a>            
-          </div>
-        </div>
-      </div>
-
-      <div className='col s12 m6 l3'>
-        <div className='card'>
-          <div className="card-image">
-            <img className="activator" src={ProfilePic} />
-          </div>
-          <div class="card-content">
-            <span class="card-title">Card Title</span>          
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Github</a>
-            <a href="#">Demo</a>            
-          </div>
-        </div>
-      </div>
-
-      <div className='col s12 m6 l3'>
-        <div className='card'>
-          <div className="card-image">
-            <img className="activator" src={ProfilePic} />
-          </div>
-          <div class="card-content">
-            <span class="card-title">Card Title</span>          
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Github</a>
-            <a href="#">Demo</a>            
-          </div>
-        </div>
-      </div>
+        <HomeProjects />
       <div className=' center col s12'>
         <a href="/projects" class="waves-effect waves-light btn">View More</a>
     </div>
@@ -145,6 +85,7 @@ const Home = () =>
           Node.js
         </div>
     </div>
+    
   </section>
 </section>
 

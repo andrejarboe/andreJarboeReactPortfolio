@@ -41,7 +41,7 @@ class ProjectCards extends Component {
                 </div>
                 <div class="card-action">
                   <a href={project.github} target="_blank">Github</a>
-                  <a href={project.liveSite} target="_blank">Demo</a>            
+                  <a href={project.liveSite} target="_blank">Demo</a>        
                 </div>
               </div>
             </div>
