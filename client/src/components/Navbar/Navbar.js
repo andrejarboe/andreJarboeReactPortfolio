@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import {Navbar, NavItem} from 'react-materialize';
+import styles from './Navbar.css';
 
 const Nav = props => 
   <Navbar brand='Andre Jarboe II' right>

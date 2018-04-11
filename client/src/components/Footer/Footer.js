@@ -6,9 +6,9 @@ import styles from './Footer.css';
 
 const MyFooter = () =>  
   <Footer copyrights="© 2018 Andre Jarboe II"
-    moreLinks={
-      <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-    }
+    // moreLinks={
+    //   {/* <a className="grey-text text-lighten-4 right" href="#!">More Links</a> */}
+    // }
     links={
       <ul>
         {/* <p>Site Map</p>         */}
